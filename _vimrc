@@ -63,4 +63,6 @@ if has('nvim')
   nnoremap <leader>l <c-w>l
 endif
 
-tnoremap <expr> <A-r> '<C-\><C-n>"'.nr2char(getchar()).'pi' # Alt R to access the yank registryj
+tnoremap <expr> <A-p> '<C-\><C-n>"'.nr2char(getchar()).'pi' " Alt p to access the yank registryj
+tnoremap <expr> π '<C-\><C-n>"'.nr2char(getchar()).'pi' " Alt p on Mac to access the yank registryj
+
