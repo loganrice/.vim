@@ -5,7 +5,6 @@ call minpac#add('k-takata/minpac', {'type': 'opt'})
 
 call minpac#add('vim-jp/syntax-vim-ex')
 call minpac#add('chriskempson/vim-tomorrow-theme')
-"call minpac#add('lifepillar/vim-solarized8')
 call minpac#add('machakann/vim-highlightedyank')
 
 " Need to install fzf seperatly then add path
@@ -21,12 +20,7 @@ set background=dark
 "colorscheme solarized8_flat
 
 " Support NeoVim Terminal Buffer cursor insert mode and normal mode
-hi! link TermCursor Cursor
-hi TermCursorNC ctermfg=235 ctermbg=242 guifg=#002b36 guibg=#586e75 guisp=NONE cterm=NONE gui=NONE
-hi! ColorColumn cterm=NONE gui=NONE ctermfg=NONE guifg=NONE ctermbg=0 guibg=#073642
-hi! Cursor cterm=NONE gui=NONE ctermfg=15 guifg=#fdf6e3 ctermbg=4 guibg=#268bd2
-hi! link lCursor Cursor
-
+hi! TermCursorNC ctermfg=15 guifg=#fdf6e3 ctermbg=14 guibg=#93a1a1 cterm=NONE gui=NONE
 
 set inccommand=split "interactive preview with search replace 
 let mapleader = " "
@@ -69,3 +63,4 @@ if has('nvim')
   nnoremap <leader>l <c-w>l
 endif
 
+tnoremap <expr> <A-r> '<C-\><C-n>"'.nr2char(getchar()).'pi' # Alt R to access the yank registryj
