@@ -14,10 +14,6 @@ call minpac#add('junegunn/fzf')
 " Settings
 colorscheme Tomorrow-Night
 set background=dark
-"set termguicolors
-"colorscheme solarized8
-"colorscheme solarized8_high
-"colorscheme solarized8_flat
 
 " Support NeoVim Terminal Buffer cursor insert mode and normal mode
 hi! TermCursorNC ctermfg=15 guifg=#fdf6e3 ctermbg=14 guibg=#93a1a1 cterm=NONE gui=NONE
@@ -50,7 +46,8 @@ set numberwidth=5
 nnoremap <Leader><Leader> <C-^>
 
 if has('nvim')
-  noremap <Esc> <C-\><C-n> "toggles to normal mode w Esc in terminal
+  "toggles to normal mode w Esc in terminal
+  tnoremap <Esc> <C-\><C-n> 
   tnoremap <A-[> <Esc>
   " Switching between split windows:
   tnoremap <leader>h <c-\><c-n><c-w>h
