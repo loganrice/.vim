@@ -8,7 +8,7 @@ call minpac#add('chriskempson/vim-tomorrow-theme')
 call minpac#add('machakann/vim-highlightedyank')
 
 " Need to install fzf seperatly then add path
-set rtp+=~/.fzf
+set rtp+=~/.fzf/bin/fzf
 call minpac#add('junegunn/fzf')
 
 " Settings
@@ -66,3 +66,7 @@ endif
 tnoremap <expr> <A-p> '<C-\><C-n>"'.nr2char(getchar()).'pi' " Alt p to access the yank registryj
 tnoremap <expr> π '<C-\><C-n>"'.nr2char(getchar()).'pi' " Alt p on Mac to access the yank registryj
 
+nnoremap <c-p> :FZF<cr> " Ctrl p mapping for fzf fuzzy search
+nmap ; :buffers<CR>
+nmap <Leader>t :files<CR>
+nmap <Leader>r :tags<CR>
