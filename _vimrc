@@ -50,7 +50,7 @@ set numberwidth=5
 nnoremap <Leader><Leader> <C-^>
 
 if has('nvim')
-  tnoremap <Esc> <C-\><C-n> "toggles to normal mode w Esc in terminal
+  noremap <Esc> <C-\><C-n> "toggles to normal mode w Esc in terminal
   tnoremap <A-[> <Esc>
   " Switching between split windows:
   tnoremap <leader>h <c-\><c-n><c-w>h
@@ -66,7 +66,8 @@ endif
 tnoremap <expr> <A-p> '<C-\><C-n>"'.nr2char(getchar()).'pi' " Alt p to access the yank registryj
 tnoremap <expr> π '<C-\><C-n>"'.nr2char(getchar()).'pi' " Alt p on Mac to access the yank registryj
 
-nnoremap <c-p> :FZF<cr> " Ctrl p mapping for fzf fuzzy search
+" Ctrl p mapping for fzf fuzzy search
+nnoremap <c-p> :FZF<cr>
 nmap ; :buffers<CR>
 nmap <Leader>t :files<CR>
 nmap <Leader>r :tags<CR>
