@@ -71,3 +71,4 @@ nnoremap <c-p> :FZF<cr>
 nmap ; :buffers<CR>
 nmap <Leader>t :files<CR>
 nmap <Leader>r :tags<CR>
+
