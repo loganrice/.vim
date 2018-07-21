@@ -6,6 +6,8 @@ call minpac#add('k-takata/minpac', {'type': 'opt'})
 call minpac#add('vim-jp/syntax-vim-ex')
 call minpac#add('chriskempson/vim-tomorrow-theme')
 call minpac#add('machakann/vim-highlightedyank')
+call minpac#add('sbdchd/neoformat')
+call minpac#add('tpope/vim-vinegar')
 
 " Need to install fzf seperatly then add path
 set rtp+=~/.fzf/bin/fzf
@@ -69,3 +71,5 @@ nmap ; :buffers<CR>
 nmap <Leader>t :files<CR>
 nmap <Leader>r :tags<CR>
 
+"Use ag for fzf searching
+let $FZF_DEFAULT_COMMAND = 'ag -g ""'
