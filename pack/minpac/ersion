@@ -1,0 +1,297 @@
+
+chdir(/usr/local/share/vim)
+fchdir() to previous dir
+could not source "$VIM/vimrc"
+chdir(/usr/local/share/vim/vim80)
+fchdir() to previous dir
+could not source "$VIMRUNTIME/macmap.vim"
+chdir(/Users/loganrice)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+Searching for "_vimrc" in "/Users/loganrice/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/_vimrc"
+chdir(/Users/loganrice/.vim)
+fchdir() to previous dir
+line 2: sourcing "/Users/loganrice/.vim/_vimrc"
+Searching for "pack/*/start/minpac" in "/Users/loganrice/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/pack/*/start/minpac"
+chdir(/Users/loganrice/.vim/pack/bundle/start)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim)
+fchdir() to previous dir
+Searching for "/usr/local/share/vim/vimfiles/pack/*/start/minpac"
+Searching for "/usr/local/share/vim/vim80/pack/*/start/minpac"
+Searching for "/usr/local/share/vim/vimfiles/after/pack/*/start/minpac"
+Searching for "/Users/loganrice/.vim/after/pack/*/start/minpac"
+Searching for "pack/*/opt/minpac" in "/Users/loganrice/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/pack/*/opt/minpac"
+chdir(/Users/loganrice/.vim/pack/bundle/opt)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim/pack/minpac/opt)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim)
+fchdir() to previous dir
+Searching for "/usr/local/share/vim/vimfiles/pack/*/opt/minpac"
+Searching for "/usr/local/share/vim/vim80/pack/*/opt/minpac"
+Searching for "/usr/local/share/vim/vimfiles/after/pack/*/opt/minpac"
+Searching for "/Users/loganrice/.vim/after/pack/*/opt/minpac"
+Searching for "autoload/minpac.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/minpac/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/start/minpac/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/after/autoload/minpac.vim"
+not found in 'runtimepath': "autoload/minpac.vim"
+Searching for "autoload/minpac.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/minpac/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/start/minpac/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/after/autoload/minpac.vim"
+not found in 'runtimepath': "autoload/minpac.vim"
+                                                 Error detected while processing /Users/loganrice/.vim/_vimrc:
+line    3:
+E117: Unknown function: minpac#init
+Searching for "autoload/minpac.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/minpac/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/start/minpac/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/after/autoload/minpac.vim"
+not found in 'runtimepath': "autoload/minpac.vim"
+line    4:
+E117: Unknown function: minpac#add
+Searching for "autoload/minpac.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/minpac/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/start/minpac/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/after/autoload/minpac.vim"
+not found in 'runtimepath': "autoload/minpac.vim"
+line    6:
+E117: Unknown function: minpac#add
+Searching for "autoload/minpac.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/minpac/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/start/minpac/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/after/autoload/minpac.vim"
+not found in 'runtimepath': "autoload/minpac.vim"
+line    7:
+E117: Unknown function: minpac#add
+Searching for "autoload/minpac.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/minpac/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/start/minpac/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/after/autoload/minpac.vim"
+not found in 'runtimepath': "autoload/minpac.vim"
+line    8:
+E117: Unknown function: minpac#add
+Searching for "autoload/minpac.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/minpac/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/start/minpac/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/after/autoload/minpac.vim"
+not found in 'runtimepath': "autoload/minpac.vim"
+line    9:
+E117: Unknown function: minpac#add
+Searching for "autoload/minpac.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/minpac/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/start/minpac/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/after/autoload/minpac.vim"
+not found in 'runtimepath': "autoload/minpac.vim"
+line   10:
+E117: Unknown function: minpac#add
+Searching for "autoload/minpac.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/minpac/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/start/minpac/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/after/autoload/minpac.vim"
+not found in 'runtimepath': "autoload/minpac.vim"
+line   11:
+E117: Unknown function: minpac#add
+Searching for "autoload/minpac.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after,/Users/loganrice/.fzf/bin/fzf"
+Searching for "/Users/loganrice/.vim/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/minpac/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/opt/minpac/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/start/minpac/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vim80/autoload/minpac.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/minpac.vim"
+Searching for "/Users/loganrice/.vim/after/autoload/minpac.vim"
+Searching for "/Users/loganrice/.fzf/bin/fzf/autoload/minpac.vim"
+not found in 'runtimepath': "autoload/minpac.vim"
+line   15:
+E117: Unknown function: minpac#add
+Searching for "colors/Tomorrow-Night.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after,/Users/loganrice/.fzf/bin/fzf"
+Searching for "/Users/loganrice/.vim/colors/Tomorrow-Night.vim"
+Searching for "/Users/loganrice/.vim/pack/minpac/opt/minpac/colors/Tomorrow-Night.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/opt/minpac/colors/Tomorrow-Night.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/start/minpac/colors/Tomorrow-Night.vim"
+Searching for "/usr/local/share/vim/vimfiles/colors/Tomorrow-Night.vim"
+Searching for "/usr/local/share/vim/vim80/colors/Tomorrow-Night.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/colors/Tomorrow-Night.vim"
+Searching for "/Users/loganrice/.vim/after/colors/Tomorrow-Night.vim"
+Searching for "/Users/loganrice/.fzf/bin/fzf/colors/Tomorrow-Night.vim"
+not found in 'runtimepath': "colors/Tomorrow-Night.vim"
+Searching for "pack/*/start/*/colors/Tomorrow-Night.vim" in "/Users/loganrice/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/pack/*/start/*/colors/Tomorrow-Night.vim"
+Searching for "/usr/local/share/vim/vimfiles/pack/*/start/*/colors/Tomorrow-Night.vim"
+Searching for "/usr/local/share/vim/vim80/pack/*/start/*/colors/Tomorrow-Night.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/pack/*/start/*/colors/Tomorrow-Night.vim"
+Searching for "/Users/loganrice/.vim/after/pack/*/start/*/colors/Tomorrow-Night.vim"
+not found in 'packpath': "pack/*/start/*/colors/Tomorrow-Night.vim"
+Searching for "pack/*/opt/*/colors/Tomorrow-Night.vim" in "/Users/loganrice/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/pack/*/opt/*/colors/Tomorrow-Night.vim"
+Searching for "/usr/local/share/vim/vimfiles/pack/*/opt/*/colors/Tomorrow-Night.vim"
+Searching for "/usr/local/share/vim/vim80/pack/*/opt/*/colors/Tomorrow-Night.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/pack/*/opt/*/colors/Tomorrow-Night.vim"
+Searching for "/Users/loganrice/.vim/after/pack/*/opt/*/colors/Tomorrow-Night.vim"
+not found in 'packpath': "pack/*/opt/*/colors/Tomorrow-Night.vim"
+line   18:
+E185: Cannot find color scheme 'Tomorrow-Night'
+line   24:
+E518: Unknown option: inccommand=split
+finished sourcing /Users/loganrice/.vim/_vimrc
+continuing in /Users/loganrice/.vimrc
+finished sourcing $HOME/.vimrc
+Searching for "pack/*/start/*" in "/Users/loganrice/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/pack/*/start/*"
+chdir(/Users/loganrice/.vim/pack/bundle/start)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim/pack/bundle/start)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim/pack/bundle/start)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim/pack/minpac/start)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim)
+fchdir() to previous dir
+Searching for "/usr/local/share/vim/vimfiles/pack/*/start/*"
+Searching for "/usr/local/share/vim/vim80/pack/*/start/*"
+Searching for "/usr/local/share/vim/vimfiles/after/pack/*/start/*"
+Searching for "/Users/loganrice/.vim/after/pack/*/start/*"
+Searching for "plugin/**/*.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after,/Users/loganrice/.fzf/bin/fzf"
+Searching for "/Users/loganrice/.vim/plugin/**/*.vim"
+Searching for "/Users/loganrice/.vim/pack/minpac/opt/minpac/plugin/**/*.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/opt/minpac/plugin/**/*.vim"
+Searching for "/Users/loganrice/.vim/pack/bundle/start/minpac/plugin/**/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/plugin/**/*.vim"
+Searching for "/usr/local/share/vim/vim80/plugin/**/*.vim"
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/getscriptPlugin.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/getscriptPlugin.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/gzip.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/gzip.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/logiPat.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/logiPat.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/manpager.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/manpager.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/matchparen.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/matchparen.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/netrwPlugin.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/netrwPlugin.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/rrhelper.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/rrhelper.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/spellfile.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/spellfile.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/tarPlugin.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/tarPlugin.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/tohtml.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/tohtml.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/vimballPlugin.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/vimballPlugin.vim
+chdir(/usr/local/share/vim/vim80/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim80/plugin/zipPlugin.vim"
+finished sourcing /usr/local/share/vim/vim80/plugin/zipPlugin.vim
+Searching for "/Users/loganrice/.fzf/bin/fzf/plugin/**/*.vim"
+Searching for "pack/*/start/*" in "/Users/loganrice/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after"
+Searching for "/Users/loganrice/.vim/pack/*/start/*"
+chdir(/Users/loganrice/.vim/pack/bundle/start)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim/pack/bundle/start)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim/pack/bundle/start)
+fchdir() to previous dir
+chdir(/Users/loganrice/.vim/pack/minpac/start)
+fchdir() to previous dir
+Searching for "/usr/local/share/vim/vimfiles/pack/*/start/*"
+Searching for "/usr/local/share/vim/vim80/pack/*/start/*"
+Searching for "/usr/local/share/vim/vimfiles/after/pack/*/start/*"
+Searching for "/Users/loganrice/.vim/after/pack/*/start/*"
+Searching for "plugin/**/*.vim" in "/Users/loganrice/.vim,/Users/loganrice/.vim/pack/minpac/start/vim-surround,/Users/loganrice/.vim/pack/bundle/start/vim-unimpaired,/Users/loganrice/.vim/pack/bundle/start/vim-surround,/Users/loganrice/.vim/pack/minpac/opt/minpac,/Users/loganrice/.vim/pack/bundle/opt/minpac,/Users/loganrice/.vim/pack/bundle/start/minpac,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim80,/usr/local/share/vim/vimfiles/after,/Users/loganrice/.vim/after,/Users/loganrice/.fzf/bin/fzf"
+Searching for "/usr/local/share/vim/vimfiles/after/plugin/**/*.vim"
+Searching for "/Users/loganrice/.vim/after/plugin/**/*.vim"
+not found in 'runtimepath': "plugin/**/*.vim"
+Reading viminfo file "/Users/loganrice/.viminfo" info oldfiles
+Executing BufEnter Auto commands for "*"
+autocommand sil call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Auto commands for "*"
+autocommand sil call s:VimEnter(expand("<amatch>"))
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+
+Writing viminfo file "/Users/loganrice/.viminfo"

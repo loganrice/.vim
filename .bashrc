@@ -125,6 +125,11 @@ fi
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# Java Version
+alias j9="export JAVA_HOME=`/usr/libexec/java_home -v 9`; java -version"
+alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
+alias j7="export JAVA_HOME=`/usr/libexec/java_home -v 1.7`; java -version"
+
 # Node Version Manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

@@ -1,5 +1,7 @@
+set packpath^=~/.vim
 " Plugins
 packadd minpac
+
 call minpac#init()
 call minpac#add('k-takata/minpac', {'type': 'opt'})
 
@@ -8,10 +10,16 @@ call minpac#add('chriskempson/vim-tomorrow-theme')
 call minpac#add('machakann/vim-highlightedyank')
 call minpac#add('sbdchd/neoformat')
 call minpac#add('tpope/vim-vinegar')
+call minpac#add('ludovicchabant/vim-gutentags')
 
 " Need to install fzf seperatly then add path
-set rtp+=~/.fzf/bin/fzf
-call minpac#add('junegunn/fzf')
+set rtp+=~/.fzf
+call minpac#add('junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' })
+
+" minpac utility commands
+command! PackUpdate call minpac#update()
+command! PackClean call minpac#clean()
+command! PackStatus call minpac#status()
 
 " Settings
 colorscheme Tomorrow-Night
@@ -67,9 +75,16 @@ tnoremap <expr> π '<C-\><C-n>"'.nr2char(getchar()).'pi' " Alt p on Mac to acces
 
 " Ctrl p mapping for fzf fuzzy search
 nnoremap <c-p> :FZF<cr>
+nnoremap <c-p>h :FZF ~<cr>
 nmap ; :buffers<CR>
 nmap <Leader>t :files<CR>
 nmap <Leader>r :tags<CR>
 
 "Use ag for fzf searching
-let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+"let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+"Create directory on save if doesn't exist
+"function WriteCreatingDirs()
+"    execute ':silent !mkdir -p %:h'
+"    write
+"endfunction
+"command W call WriteCreatingDirs()
